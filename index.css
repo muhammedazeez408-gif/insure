@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* position: relative; */
+  /* z-index: 1; */
+}
+
+.nav-bar {
+  display: flex;
+  position: relative;
+  /* margin-left: 20%; */
+  padding-left: 10%;
+  /* padding-right: 10%; */
+  align-items: center;
+  height: 10vh;
+  background-color: white;
+  width: 1440px;
+  position: fixed;
+  z-index: 5;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  right: 0;
+  margin-right: 10%;
+  font-family: "Karla", sans-serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links button {
+  margin-left: 40px;
+  padding: 10px 15px 10px 15px;
+  width: 200px;
+  border: 1px solid hsl(256, 26%, 20%);
+  color: white;
+  background-color: hsl(256, 26%, 20%);
+  cursor: pointer;
+}
+
+.hero {
+  background-color: hsl(256, 26%, 20%);
+  height: 80vh;
+  /* background-image: url(./images/bg-pattern-intro-right-desktop.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  position: relative;
+}
+
+.hero img {
+  height: 70vh;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.right-card {
+  /* position: relative; */
+}
+
+.right-card img {
+  position: absolute;
+  z-index: 1;
+  margin-right: 12.7%;
+  margin-top: 13%;
+}
+
+.left-card {
+}
+
+.left-card-text {
+  margin-top: 17%;
+  margin-left: 10%;
+  color: white;
+  position: relative;
+}
+
+.left-card-text h1 {
+  font-size: 60px;
+  font-family: "DM Serif Display", serif;
+  line-height: 1;
+  padding-bottom: 15px;
+}
+
+.left-card-text p {
+  font-family: "Karla", sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.butn-2 {
+  padding: 10px;
+  width: 130px;
+  cursor: pointer;
+  font-size: 12px;
+  color: hsl(256, 26%, 20%);
+}
+
+.input {
+  width: 250px;
+  max-height: 0vh;
+  position: absolute;
+  top: 0;
+  margin-top: 13%;
+  margin-left: 10%;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.section-1 {
+  height: 55vh;
+}
+
+.section-1 img {
+  position: absolute;
+  top: 0;
+  margin-top: 33.2%;
+}
+
+.line-button button {
+  border: 0.1px solid black;
+  width: 140px;
+  margin-left: 10%;
+  position: absolute;
+  margin-top: 17%;
+}
+
+.section-1 h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 60px;
+  position: absolute;
+  margin-top: 19.5%;
+  margin-left: 10%;
+}
+
+.section-2 {
+}
+
+.section-2-images {
+  display: flex;
+  gap: 5%;
+  margin-left: 10%;
+}
+
+.section-2-images img {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  margin-bottom: 10%;
+}
+
+.section-2-images-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-2-images-text h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 6%;
+}
+
+.section-2-images-text p {
+  font-family: "Karla", sans-serif;
+  font-weight: 250;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.section-3 {
+  border: 2px solid black;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 25vh;
+  background-color: hsl(256, 26%, 20%);
+  border-color: hsl(256, 26%, 20%);
+  background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 10%;
+}
+
+.section-3-texts {
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 60px 0px 60px;
+  align-items: center;
+}
+
+.section-3-texts h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 1;
+  color: white;
+}
+
+.section-3-texts button {
+  height: 4.3vh;
+  width: 155px;
+  font-size: 11px;
+  border: 1px solid white;
+}
+
+.footer-nav {
+  border: 1px solid hsl(273, 4%, 51%, 0.1);
+  padding-top: 60px;
+  background-color: hsl(273, 4%, 51%, 0.1);
+  display: flex;
+  height: 15vh;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 10%;
+    margin-right: 10%; */
+  position: relative;
+  padding-left: 10%;
+}
+
+.footer-nav-images {
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 20px;
+  padding-right: 10%;
+}
+
+.footer-nav-2 {
+  border: 0.1px solid hsl(273, 4%, 51%);
+  background-color: hsl(273, 4%, 51%, 0.1);
+  height: 40vh;
+  padding-top: 3%;
+}
+
+.footer-nav-2-links {
+  display: flex;
+  gap: 12%;
+  padding-left: 10%;
+}
+
+.footer-nav-2-links-2 {
+  display: flex;
+  flex-direction: column;
+
+  /* padding-bottom: 5%; */
+}
+
+.footer-nav-2 a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  font-family: "Karla", sans-serif;
+  line-height: 1.9;
+}
+
+.footer-nav-2-links-2 h4 {
+  font-family: "Karla", sans-serif;
+  line-height: 6;
+}
